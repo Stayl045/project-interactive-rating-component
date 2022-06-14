@@ -12,14 +12,15 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
-article {
+/***************** Section #1  ********************/
+.main-article {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.box-container {
+.box-container-1 {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -29,13 +30,17 @@ article {
   height: 375px;
   max-width: 375px;
 
-  border-radius: 5px;
+  border-radius: 25px;
   color: hsl(0, 0%, 100%);
   background: linear-gradient(to right, hsl(213, 19%, 18%), hsl(213, 19%, 18%));
 }
 
 .text-container {
   text-align: left;
+}
+
+h1 {
+  padding: 5px 0px 5px 0px;
 }
 
 p {
@@ -46,12 +51,109 @@ p {
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  padding: 30px 0px 30px 0px;
+  font-size: 12px;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
 }
 
 button {
-  padding: 5px 0px 5px 0px;
+  padding: 10px 0px 10px 0px;
   width: 100%;
   border-radius: 15px;
   background: hsl(25, 97%, 53%);
   font-weight: 500;
+  border-style: none;
+  color: hsl(0, 0%, 100%);
+}
+
+/* Items */
+
+.item-1 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background-color: hsl(216, 12%, 54%);
+}
+.item-2 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background-color: hsl(0, 0%, 100%);
+}
+.item-3 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background-color: hsl(216, 12%, 54%);
+}
+.item-4 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background-color: hsl(216, 12%, 54%);
+}
+.item-5 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  background-color: hsl(216, 12%, 54%);
+  border-radius: 50%;
+}
+
+.svg-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: hsl(216, 12%, 54%);
+  border-radius: 50%;
+  margin: 30px 0px 10px 0px;
+}
+/***************** Section #2  ********************/
+
+.secondary-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container-2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+
+  height: 375px;
+  max-width: 375px;
+
+  border-radius: 25px;
+  color: hsl(0, 0%, 100%);
+  background: linear-gradient(to right, hsl(213, 19%, 18%), hsl(213, 19%, 18%));
+}
+
+img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
