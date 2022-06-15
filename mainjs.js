@@ -1,3 +1,4 @@
+// Page Switch
 const mainArticle = document.querySelector("[main-article]");
 const cardSteps = [...mainArticle.querySelectorAll("[card-step]")];
 
@@ -25,3 +26,14 @@ function showCurrentStep() {
 
   })
 }
+
+// Number-Click
+
+// document.querySelectorAll(.item).forEach(elem => elem,addEventListener('click', active)) 
+
+
+
+
+// function active () {
+
+// }
