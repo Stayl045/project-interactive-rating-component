@@ -1,4 +1,4 @@
-const mainArticle = document.querySelector(".main-article");
+const mainArticle = document.querySelector("[main-article]");
 const cardSteps = [...mainArticle.querySelectorAll("[card-step]")];
 
 let currentStep = cardSteps.findIndex(step => {
@@ -18,7 +18,6 @@ mainArticle.addEventListener("click", e => {
   } 
   showCurrentStep()
 })
-console.log(cardSteps)
 
 function showCurrentStep() {
   cardSteps.forEach((step,index) => {
